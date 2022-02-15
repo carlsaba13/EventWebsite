@@ -1,0 +1,11 @@
+.topnav {
+    background-color: aqua;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.topnav a {
+    float: left;
+    width: 33%;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.artists {
+    padding-top: 5rem;
+}
+
+.artist {
+    max-width: 1400px;
+    margin: 10 auto;
+    display: grid;
+    grid-gap: 5rem;
+    height: 20rem;
+    background-color: pink;
+}
+
+.artistImage {
+    background-color: beige;
+    height: max-content;
+    width: auto;
+}
+
+.artistDescription {
+    background-color: brown;;
+}
+
+@media (min-width: 600px) {
+    .artist { grid-template-columns: repeat(2, 1fr); }
+}
+
+.artistImage img {
+    height: 20rem;
+    width: 20rem;
+}
