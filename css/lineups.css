@@ -1,31 +1,14 @@
-.artists {
-    padding-top: 5rem;
+.row div {
+    height: 10rem;
 }
 
-.artist {
-    max-width: 1400px;
-    margin: 10 auto;
-    display: grid;
-    grid-gap: 5rem;
-    height: 20rem;
-    background-color: pink;
-}
-
-.artistImage {
-    background-color: beige;
-    height: max-content;
+.row img {
+    height: 100%;
     width: auto;
 }
 
-.artistDescription {
-    background-color: brown;;
-}
-
-@media (min-width: 600px) {
-    .artist { grid-template-columns: repeat(2, 1fr); }
-}
-
-.artistImage img {
-    height: 20rem;
-    width: 20rem;
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
 }
