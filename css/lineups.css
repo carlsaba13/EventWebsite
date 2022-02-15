@@ -1,14 +1,35 @@
-.row div {
-    height: 10rem;
-}
-
-.row img {
-    height: 100%;
-    width: auto;
-}
-
-.row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 20px;
-}
+.row { 
+    border : 2px solid #000; 
+    overflow:hidden;
+  }
+  
+  .row div {
+     min-height: 200px;
+     padding: 10px;
+  }
+  .img {
+    background-color: gray;
+    float:left; 
+    max-width: 100%;
+    height: auto;
+    border-right:2px solid #000;
+    object-fit: contain;
+  }
+  .desc { 
+    background-color: white;
+    overflow:hidden;
+    margin:10px;
+    border:2px dashed #ccc;
+    min-height:170px;
+  }
+  
+  @media screen and (max-width: 600px) {
+     .img { 
+      float: none;
+      margin-right:0;
+      width:100%;
+      height: auto;
+      border:0;
+      border-bottom:2px solid #000; 
+    }
+  }
