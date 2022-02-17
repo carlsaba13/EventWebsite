@@ -17,5 +17,12 @@
 
 .navbar {
     max-width: 100%;
-    height: auto;
+    height: 5rem;
+}
+
+.navbar-collapse {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    background-color: #F8F9FA;
 }
