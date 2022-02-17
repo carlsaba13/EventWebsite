@@ -1,4 +1,18 @@
-.row { 
+@media screen and (max-width: 600px) {
+
+  .media-body {
+      padding-top: 1em;
+      text-align: center !important;
+      margin: 0 !important;
+  }
+
+  .media img {
+      margin: 0 auto;
+      /*width: 100%;*/
+  }
+}
+
+/*.row { 
     border : 2px solid #000; 
     overflow:hidden;
   }
@@ -14,6 +28,12 @@
     height: auto;
     border-right:2px solid #000;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+  }
+  .img img {
+    width: 100%;
+    height:
   }
   .desc { 
     background-color: white;
@@ -24,7 +44,7 @@
   }
   
   @media screen and (max-width: 600px) {
-     .img { 
+     .img, .img img { 
       float: none;
       margin-right:0;
       width:100%;
@@ -32,4 +52,4 @@
       border:0;
       border-bottom:2px solid #000; 
     }
-  }
+  }*/

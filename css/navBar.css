@@ -1,11 +1,21 @@
-.topnav {
+/*.topnav {
     background-color: aqua;
     height: 4rem;
     font-size: 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .topnav a {
     float: left;
     width: 33%;
     text-align: center;
+    text-decoration: none;
+}*/
+
+.navbar {
+    max-width: 100%;
+    height: auto;
 }
