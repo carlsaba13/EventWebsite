@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="css/lineups.css">
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/footer.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -18,7 +21,7 @@
 
 <body>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <h1 class="navbar-brand">KPOP Music Concert</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -41,7 +44,7 @@
             </div>
           </nav>
         </div>
-    <script src="js/index.js"></script>
+    <div class="wrapper">
     <div class="img-wrapper">
       <img class="img-responsive"
            src="imgs/main/header.jpg">
@@ -49,17 +52,19 @@
         
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <a href="html/tickets.html">
-            <button type="button" class="btn-lg btn btn-outline-primary">GET TICKETS</button>
-          </a>
-        </div>
-        <div class="col">
-          <a href="html/lineups.html">
-            <button type="button" class="btn-lg btn btn-outline-primary">VIEW LINEUP</button>
-          </a>
+    <div class="ticket-container">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="html/tickets.html">
+              <button type="button" class="btn-lg btn btn-outline-primary">GET TICKETS</button>
+            </a>
+          </div>
+          <div class="col">
+            <a href="html/lineups.html">
+              <button type="button" class="btn-lg btn btn-outline-primary">VIEW LINEUP</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -95,6 +100,7 @@
         <h5 class="mt-0">Media heading</h5>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
       </div>
+  </div>
   </div>
   <footer class="bg-light text-center text-white">
     <!-- Grid container -->

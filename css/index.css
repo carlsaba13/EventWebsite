@@ -1,11 +1,26 @@
+.wrapper {
+    background-color: #FDDBE7;
+    margin: 0;
+}
+
 #carouselExampleIndicators {
     margin: 2rem;
     width: 60%;
 }
 
+@media screen and (max-width: 600px) {
+    #carouselExampleIndicators {
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+}
+
 .img-wrapper {
     z-index: 0;
     position: relative;
+    margin:0;
 }
   
 .img-responsive {
@@ -31,8 +46,20 @@
 
 .container, .container button {
     width: 100%;
-    margin-top: 1rem;
     justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+.ticket-container {
+    border: 1px solid black;
+    margin:0;
+    height: 8rem;
+}
+
+.media {
+    border: 1px solid black;
+    border-top: none;
+}
