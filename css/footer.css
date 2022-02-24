@@ -13,3 +13,24 @@
 .fa-google {
     background: linear-gradient(-120deg, #4285F4, #34A853, #FBBC05, #EA4335);
 }
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
