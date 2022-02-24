@@ -29,6 +29,9 @@
 
   .media img {
       margin: 0 auto;
+      margin-left: 2rem;
+      width: 50%;
+      height: auto;
       /*width: 100%;*/
   }
 }
@@ -41,6 +44,14 @@
   overflow: none;
 }
 
-img {
+.row {
+  margin: 2rem;
+}
+
+.mr-3 {
+  justify-content: center;
+}
+
+.media img {
   max-width: 100%;
 }

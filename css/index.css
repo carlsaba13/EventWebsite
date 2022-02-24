@@ -1,4 +1,38 @@
 #carouselExampleIndicators {
     margin: 2rem;
-    width: 40%;
+    width: 60%;
 }
+
+.img-wrapper {
+    z-index: 0;
+    position: relative;
+}
+  
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+  
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+  
+.img-overlay:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 50%;
+}
+
+.container, .container button {
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
