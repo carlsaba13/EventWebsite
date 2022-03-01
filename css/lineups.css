@@ -1,9 +1,3 @@
-.media-body {
-  line-height: 180%;
-  padding: 2rem;
-  font-size: 25px;
-}
-
 @media screen and (max-width: 1130px) {
 
   .m-header {
@@ -84,13 +78,6 @@
 
 .lightpink {
   background-color: #FDDBE7;
-}
-
-.m-header {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400px;
-  font-size: 60px;
-  margin-bottom: 3rem;
 }
 
 body {
