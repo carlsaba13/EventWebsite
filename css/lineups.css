@@ -1,12 +1,16 @@
 .media-body {
+  line-height: 180%;
   padding: 2rem;
-  font-size: 30px;
+  font-size: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1130px) {
+
+  .m-header {
+    text-align: center;
+  }
 
   .media-body {
-      padding-top: 1rem;
       padding-left: 1rem;
       padding-right: 1rem;
       text-align: center !important;
@@ -14,6 +18,7 @@
   }
 
   .media img {
+      width: 100% !important;
       margin: 0 auto;
   }
 
@@ -27,7 +32,7 @@
 @media screen and (min-width: 1130px) {
 
   .media-body {
-      padding-top: 8rem;
+      padding-top: 2rem;
       padding-left: 1rem;
       padding-right: 4rem;
       text-align: center !important;
@@ -46,6 +51,9 @@
 }
 
 .media {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
   overflow: none;
 }
 
@@ -61,6 +69,13 @@
 .media img {
   margin: 2rem;
   max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .lightblue {
@@ -74,5 +89,10 @@
 .m-header {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400px;
-  font-size: 50px;
+  font-size: 60px;
+  margin-bottom: 3rem;
+}
+
+body {
+  width: 100%;
 }

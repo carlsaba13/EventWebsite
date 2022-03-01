@@ -16,3 +16,12 @@ html, body {
     height: 5rem !important;
   }
 }
+
+.btn {
+  border: 5px solid #B4E2EC !important;
+  color: black !important;
+}
+
+.btn:hover {
+  background-color: #B4E2EC !important;
+}
