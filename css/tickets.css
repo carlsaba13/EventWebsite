@@ -17,16 +17,17 @@
 }
 
 .display-4, .lead {
-    font-family: 'Work Sans';
-    font-weight: 400;
+    font-family: 'Work Sans' !important;
 }
 
 .display-4 {
-    font-size: 50px;
+    font-size: 60px !important;
+    font-weight: 900 !important;
 }
 
 .lead {
-    font-size: 16px;
+    font-size: 24px !important;
+    font-weight: 400 !important;
 }
 
 .col-sm h3 {
