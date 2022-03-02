@@ -34,6 +34,10 @@
       height: auto;
       /*width: 100%;*/
   }
+
+  .special-img {
+    margin-left: 1rem !important;
+  }
 }
 
 .mr-3 {
@@ -42,6 +46,14 @@
   margin-left: 1rem !important;
   display: flex;
   justify-content: center;
+}
+
+.special-img {
+  width: 100%;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  margin: 0;
+  display: flex;
 }
 
 .flex-column {
