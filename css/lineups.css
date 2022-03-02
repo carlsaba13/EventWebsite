@@ -11,15 +11,10 @@
       margin: 0 !important;
   }
 
-  .media img {
-      display: flex;
-      justify-content: center;
-      width: 100% !important;
-      margin: 0 auto;
-  }
+
 
   .row {
-    margin-left: auto;
+      margin-left: auto;
       margin-right: auto;
       justify-content: center;
   }
@@ -35,11 +30,18 @@
   }
 
   .media img {
-      margin: 2rem;
       width: 50%;
       height: auto;
       /*width: 100%;*/
   }
+}
+
+.mr-3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem !important;
+  display: flex;
+  justify-content: center;
 }
 
 .flex-column {
@@ -57,13 +59,7 @@
   margin: 0;
 }
 
-.mr-3 {
-  margin: 2rem;
-  justify-content: center;
-}
-
 .media img {
-  margin: 2rem;
   max-width: 100%;
   height: auto;
 }
