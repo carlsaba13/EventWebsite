@@ -24,6 +24,15 @@
     justify-content: center;
 }
 
+.card-body, .card {
+    background-color: #B4E2EC !important;
+    border: none !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center !important;
+}
+
 .big-image {
     justify-content: center;
     margin-left: auto;
@@ -73,11 +82,19 @@
 }
 
 .media {
-    border: 1px solid black;
+    border-top: solid 1px black;
     background-color: #B4E2EC;
 }
 
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
+}
+
+ul {
+    list-style: none;
+}
+
+.main-collapse {
+    width: 70% !important;
 }
