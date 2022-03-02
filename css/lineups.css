@@ -12,6 +12,8 @@
   }
 
   .media img {
+      display: flex;
+      justify-content: center;
       width: 100% !important;
       margin: 0 auto;
   }
